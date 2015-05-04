@@ -19,4 +19,6 @@ class AppItem(scrapy.Item):
     download_num = scrapy.Field()
 
 
- 
+class GoogleItem(scrapy.Item):
+ 	url = scrapy.Field()
+ 	num = scrapy.Field()
