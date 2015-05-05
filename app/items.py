@@ -22,3 +22,10 @@ class AppItem(scrapy.Item):
 class GoogleItem(scrapy.Item):
  	url = scrapy.Field()
  	num = scrapy.Field()
+
+
+class HiapkItem(scrapy.Item):
+	url = scrapy.Field()
+	name = scrapy.Field()
+	info = scrapy.Field()
+	apk_url = scrapy.Field()

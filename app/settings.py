@@ -22,6 +22,6 @@ ITEM_PIPELINES = [
 
 MONGODB_URI = 'mongodb://127.0.0.1:27017'
 MONGODB_DATABASE = 'scrapy'
-MONGODB_COLLECTION = 'play'
+MONGODB_COLLECTION = 'hiapk'
 
 EXTENSIONS = {'scrapy.contrib.feedexport.FeedExporter': None}
